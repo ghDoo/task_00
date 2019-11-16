@@ -17,9 +17,6 @@ const App = () => {
     const [error, setError] = useState("");
     const [name, setName] = useState("");
 
-    console.log(name);
-    console.log(error);
-
     useEffect(() => {
         const FetchData = async () => {
             try {

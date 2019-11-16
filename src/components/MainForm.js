@@ -5,8 +5,6 @@ const MainForm = (props) => {
 
   const [text, setText] = useState("");
 
-  console.log(text);
-
   const handleChange = (event) => {
     setText(event.target.value);
   };
